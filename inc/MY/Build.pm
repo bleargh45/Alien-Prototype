@@ -6,7 +6,6 @@ use base qw(Module::Build);
 use File::Copy qw(copy);
 use File::Path qw(mkpath);
 use File::Basename qw(basename);
-use Alien::Prototype;
 
 sub ACTION_code {
     my $self = shift;
