@@ -50,7 +50,7 @@ sub install_prototype {
     return if (-d $self->prototype_target_dir());
 
     my $dst = $self->prototype_target_dir();
-    mkpath( [$dst] ) || die "unable to create '$dst'; $!";
+    mkpath( $dst ) || die "unable to create '$dst'; $!";
 
     print "Installing Prototype...\n";
     foreach my $file ($self->prototype_files()) {
