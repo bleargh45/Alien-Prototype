@@ -1,6 +1,6 @@
 Revision history for Perl extension Alien::Prototype.
 
-1.6.0.1_0   Mon Oct  1 11:58 PDT 2007
+1.6.0.1_0   Tue Oct  2 11:45 PDT 2007
     - update to Prototype 1.6.0_rc0
     - reworked installation routines, internally more flexible
     - added "passthrough" Makefile.PL; we -NEED- to have Module::Build
