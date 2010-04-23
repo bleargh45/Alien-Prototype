@@ -1,5 +1,8 @@
 Revision history for Perl extension Alien::Prototype.
 
+1.6.0.2     ???
+    - switch to Git
+
 1.5.0.1     Fri Dec  7 21:43 PST 2007
     - update to Prototype 1.6.0 final
 
