@@ -94,7 +94,7 @@ sub install {
 
 =head1 NAME
 
-Alien::Prototype - installing and finding Prototype JS library
+Alien::Prototype - (DEPRECATED) installing and finding Prototype JS library
 
 =head1 SYNOPSIS
 
@@ -106,6 +106,8 @@ Alien::Prototype - installing and finding Prototype JS library
   Alien::Prototype->install( $my_destination_directory );
 
 =head1 DESCRIPTION
+
+B<DEPRECATED> - DO NOT USE
 
 Please see L<Alien> for the manifesto of the Alien namespace.
 
