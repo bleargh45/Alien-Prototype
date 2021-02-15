@@ -43,6 +43,14 @@
       ]
    },
    "version" : "v1.6.0.2",
+   "x_bugtracker" : {
+      "web" : "https://github.com/bleargh45/Alien-Prototype/issues"
+   },
    "x_deprecated" : 1,
+   "x_repository" : {
+      "type" : "git",
+      "url" : "git://github.com/bleargh45/Alien-Prototype.git",
+      "web" : "https://github.com/bleargh45/Alien-Prototype"
+   },
    "x_serialization_backend" : "JSON::PP version 4.05"
 }

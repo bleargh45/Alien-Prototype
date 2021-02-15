@@ -16,5 +16,13 @@ MY::Build->new(
         },
     'meta_merge' => {
         'x_deprecated'          => 1,
+        'bugtracker' => {
+            'web'  => 'https://github.com/bleargh45/Alien-Prototype/issues',
+            },
+        'repository' => {
+            'type' => 'git',
+            'url'  => 'git://github.com/bleargh45/Alien-Prototype.git',
+            'web'  => 'https://github.com/bleargh45/Alien-Prototype',
+            },
         },
     )->create_build_script();
